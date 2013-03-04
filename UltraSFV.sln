@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltraSFV", "UltraSFV\UltraSFV.csproj", "{E81F7108-48F4-407B-A575-6FF9D7EC2A04}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UltraSFVInstaller", "UltraSFVInstaller\UltraSFVInstaller.vdproj", "{799DB6EE-7231-4BC9-B0ED-89E18E205A34}"
