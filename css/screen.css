@@ -1,0 +1,436 @@
+/*
+ * Cascading Style Sheet - ULTRASFV.COM
+ * Copyright (c) 2008 Steven Benner. All rights reserved.
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*  Basic Element Formatting  */
+body {
+	background-color: #F5F4ED;
+	color: #000;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px;
+}
+a:link, a:visited, a:active {
+	color: #252CAE;
+	text-decoration: underline;
+}
+a:hover {
+	color: #06F;
+}
+a img {
+	border-color: #FFF;
+	border-style: none;
+	border-width: 0;
+	color: #FFF;
+}
+img.left {
+	float: left;
+	margin-right: 10px;
+}
+h1 {
+	font-family: verdana,helvetica,sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+h2 {
+	border-bottom: 1px solid #000;
+	color: #900;
+	font-size: 21px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	padding-bottom: 6px;
+}
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	padding-top: 10px;
+}
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-bottom: 4px;
+}
+h5 {
+	color: #2F4F4F;
+	font-size: 12px;
+	font-weight: bold;
+}
+p, dd {
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+ul, ol {
+	margin: 8px 0 8px 35px;
+}
+li {
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+li span.note {
+	color: #666;
+}
+blockquote {
+	padding: 0 30px;
+}
+div.wrap {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 950px;
+}
+p.announcement {
+	color: #DC143C;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+/*  Header Styles  */
+#header {
+	background: #8FBC8F url(/images/headergrad.gif) repeat scroll center top;
+	color: #FFFAF0;
+	height: 70px;
+	overflow: hidden;
+}
+#header h1 span, #header p {
+	position: absolute;
+	top: -1000px;
+}
+#header h1 a {
+	background: transparent url(/images/logocopy.gif) no-repeat top left;
+	display: block;
+	height: 55px;
+	margin-top: 10px;
+	width: 220px;
+}
+#header img {
+	float: left;
+	padding-right: 15px;
+}
+
+
+/*  Main Navigation Styles  */
+#navigation {
+	background: #000 url(/images/navgradient.gif) repeat scroll center top;
+	border-top: 1px solid #000;
+	height: 35px;
+}
+#navigation a {
+	outline: none;
+}
+#navigation div.wrap {
+	overflow: visible;
+}
+#navigation ul {
+	border-right: 1px solid #333;
+	float: left;
+	list-style-type: none;
+	margin: 5px 0 0 0;
+	text-align: center;
+}
+#navigation ul li {
+	border-left: 1px solid #333;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	position: relative;
+	text-align: center;
+}
+#navigation ul li a {
+	color: #AAA;
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+}
+#navigation ul li a:hover {
+	background: #C60;
+	color: #FFF;
+}
+#navigation li ul {
+	background: url(/images/navdropdown_bg.gif) bottom left no-repeat;
+	border-right: solid 1px #333;
+	display: block;
+	left: -1px;
+	margin: 0;
+	padding: 0.5em 0 1em 0;
+	position: absolute;
+	top: 100%;
+	visibility: hidden;
+}
+#navigation ul li ul a {
+	text-align: left;
+	width: 100px;
+}
+#navigation li li {
+	background-color: transparent;
+	border: 0;
+	display: block;
+	float: none;
+	text-align: left;
+}
+
+
+/*  Content Box Styles  */
+#content {
+	background: transparent url(/images/contentgradient.gif) repeat-x scroll center top;
+	padding-top: 20px;
+}
+/*  Main Content Styles  */
+#content-main {
+	border-right: 1px solid #CCC;
+	float: left;
+	padding-right: 20px;
+	width: 75%;
+}
+#content-main.nosup{
+	border-right: none;
+	float: none;
+	padding-right: 0;
+	width: auto;
+}
+/*  Supplimental Content Styles  */
+#content-sup {
+	float: right;
+	width: 21%;
+}
+#content-sup h3 {
+	position: absolute;
+	top: -1000px;
+}
+#content-sup h4 {
+	color: #C60;
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 5px;
+	padding-bottom: 2px;
+}
+#content-sup a {
+	text-decoration: none;
+}
+#content-sup dl {
+	padding-top: 5px;
+}
+#content-sup ul {
+	list-style: square;
+	margin-left: 14px;
+}
+#content-sup li {
+	margin-bottom: 3px;
+}
+#content-sup p {
+	background: transparent url(/images/bitcons/arrow2_e.gif) no-repeat scroll left 5px;
+	font-size: 11px;
+	height: 16px;
+	line-height: 16px;
+	margin-top: -7px;
+	padding: 5px 0 10px 20px;
+	vertical-align: top;
+}
+
+
+/* Footer Styles */
+#footer {
+	margin-top: 15px;
+}
+#footer div.wrap {
+	border-top: 5px solid #C9C0B7;
+}
+#footer p {
+	font-size: 11px;
+}
+#footer #disclaimer {
+	float: left;
+	padding: 8px 0;
+	width: 500px;
+}
+#footer #disclaimer p {
+	line-height: 14px;
+}
+#footer #copyright {
+	float: right;
+	padding: 8px 0;
+	text-align: right;
+	width: 400px;
+}
+
+
+/* Form Styles */
+label {
+	font-size: 10px;
+	font-style: italic;
+}
+form span.reqnote {
+	color: #F00;
+	font-size: 10px;
+	font-style: italic;
+}
+/* Form Check Error Styles */
+#errormsg {
+	border: 2px solid #C00;
+	left: 240px;
+	margin-top: 10px;
+	padding: 5px;
+	position: absolute;
+	top: 20px;
+	width: 290px;
+	z-index: 1000;
+}
+#errormsg p {
+	margin-bottom: 0;
+	padding: 5px;
+	text-align: center;
+}
+#errormsg img {
+	padding: 0;
+}
+input.error, select.error, textarea.error {
+	background: #FCC;
+}
+/* AJAX Form Tools Styles */
+#contactform {
+	margin-left: 25px;
+	position: relative;
+}
+#contactstatus {
+	background: #EEE;
+	border: 1px solid #000;
+	display: block;
+	left: 155px;
+	padding: 15px;
+	position: absolute;
+	text-align: center;
+	top: 90px;
+	width: 300px;
+	z-index: 1000;
+}
+#contactstatus strong.ok {
+	color: #070;
+}
+#contactstatus strong.error {
+	color: #C00;
+}
+
+
+/*  Home Page News & Announcements Styles  */
+#home #content-main dt {
+	background: transparent url(/images/bitcons/arrow3_e.gif) no-repeat scroll left 11px;
+	font-weight: bold;
+	padding-top: 8px;
+}
+#home #content-main dt span {
+	color: #666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal; 
+}
+#home #content-main dt, #home #content-main dd {
+	padding-left: 20px;
+}
+
+
+/*  Download Box Styles  */
+#downloadbox a {
+	display: block;
+	width: 140px;
+	height: 65px;
+	background: #F5F4ED url(/images/download_bg.gif) no-repeat top left;
+	padding: 13px 0pt 0pt 80px;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+	color: Yellow;
+	margin: 0 auto;
+}
+#downloadbox a span {
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFF8DC;
+}
+#downloadbox a abbr {
+	border-bottom: 0;
+}
+
+
+/*  Section Navigation Styles  */
+p.sectionnav {
+	clear: both;
+	overflow: hidden;
+}
+p.sectionnav a {
+	float: left;
+}
+p.sectionnav span a {
+	float: right;
+}
+
+
+/*  Image Modal Styles  */
+#tOverlay {
+	background-image: url(/images/overlay.png);
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+}
+* html #tOverlay {
+	background-color: #333;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/overlay.png", sizingMethod="scale");
+}
+#tModal {
+	background-color: #FFF;
+	padding: 10px 10px 0 10px;
+	border: 1px solid #000;
+	position: absolute;
+	display: none;
+	z-index: 1001;
+}
+#tModal img {
+	clear: both;
+} 
+#tModalContent {
+	display: block;
+	padding-bottom: 5px;
+	position: relative;
+}
+#tModalCaption {
+	font-weight: bold;
+	padding-top: 3px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 10px;
+	border-top: 1px solid #CCC;
+}
+#tModalResText {
+	padding: 0;
+	font-size: 10px;
+	margin: 0;
+}
+#tModalControls {
+	position: absolute;
+	padding-top: 5px;
+	margin: 0;
+	top: 8px;
+	right: 0;
+}
+#tModalClose {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1002;
+}
