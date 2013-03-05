@@ -8,8 +8,6 @@ permalink: /download/
 
 **UltraSFV is currently in the Beta phase. It is not yet avaliable to the public.**
 
-UltraSFV should be released some time in December, 2008.
-
 ### Instructions
 
 * Click the download link above and download the installer file.
