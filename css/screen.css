@@ -14,7 +14,7 @@ body {
 	background-color: #F5F4ED;
 	color: #000;
 	font-family: arial,helvetica,sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 }
 a:link, a:visited, a:active {
 	color: #252CAE;
@@ -29,9 +29,9 @@ a img {
 	border-width: 0;
 	color: #FFF;
 }
-img.left {
+#content img {
 	float: left;
-	margin-right: 10px;
+	margin: 0 16px 16px 0;
 }
 h1 {
 	font-family: verdana,helvetica,sans-serif;
@@ -48,15 +48,15 @@ h2 {
 	padding-bottom: 6px;
 }
 h3 {
-	font-size: 14px;
+	font-size: 22px;
 	font-weight: bold;
-	margin-bottom: 4px;
+	margin-bottom: 14px;
 	padding-top: 10px;
 }
 h4 {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: bold;
-	margin-top: 10px;
+	margin-top: 20px;
 	padding-bottom: 4px;
 }
 h5 {
@@ -64,16 +64,18 @@ h5 {
 	font-size: 12px;
 	font-weight: bold;
 }
-p, dd {
-	line-height: 20px;
+p, dd, li {
+	line-height: 22px;
 	margin-bottom: 10px;
+}
+pre {
+	border: 1px solid #CCC;
+	background-color: #EEE;
+	padding: 8px;
+	margin: -10px 0 10px 0;
 }
 ul, ol {
 	margin: 8px 0 8px 35px;
-}
-li {
-	padding-bottom: 2px;
-	padding-top: 2px;
 }
 li span.note {
 	color: #666;
@@ -84,7 +86,7 @@ blockquote {
 div.wrap {
 	margin: 0 auto;
 	overflow: hidden;
-	width: 950px;
+	width: 760px;
 }
 p.announcement {
 	color: #DC143C;
@@ -135,7 +137,7 @@ p.announcement {
 	border-right: 1px solid #333;
 	float: left;
 	list-style-type: none;
-	margin: 5px 0 0 0;
+	margin: 0;
 	text-align: center;
 }
 #navigation ul li {
@@ -149,9 +151,8 @@ p.announcement {
 #navigation ul li a {
 	color: #AAA;
 	display: block;
-	font-size: 12px;
 	line-height: 20px;
-	padding: 0 20px;
+	padding: 7px 20px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -247,25 +248,30 @@ p.announcement {
 }
 #footer div.wrap {
 	border-top: 5px solid #C9C0B7;
+	padding-top: 14px;
 }
 #footer p {
-	font-size: 11px;
+	font-size: 12px;
+	line-height: 17px;
 }
-#footer #disclaimer {
+#copyright {
+	padding-left: 110px;
+}
+#copyright-image {
 	float: left;
-	padding: 8px 0;
-	width: 500px;
 }
-#footer #disclaimer p {
-	line-height: 14px;
+#copyright-image img {
+	margin: 4px;
+	box-shadow: 0 0 3px #AAA;
+	-moz-box-shadow: 0 0 3px #AAA;
+	-webkit-box-shadow: 0 0 3px #AAA;
 }
-#footer #copyright {
-	float: right;
-	padding: 8px 0;
-	text-align: right;
-	width: 400px;
+#github-link img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
 }
-
 
 /* Form Styles */
 label {
