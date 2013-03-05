@@ -46,7 +46,3 @@ Generally speaking, you should append CRCs to file names. People tend to delete 
 ### Windows said UltraSFV is trying to connect to the internet! Why?
 
 UltraSFV will try to connect to the internet to check for automatic updates. It only sends basic information about the application so that it can determine if there is a new update out. No personally identifiable information is sent.
-
-### Can I use UltraSFV for my business?
-
-Yes. You can use UltraSFV for personal or commercial purposes. You just can't sell the UltraSFV software itself.
