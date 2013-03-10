@@ -1088,6 +1088,6 @@ namespace UltraSFV
 
 		#endregion
 
-		#endregion}
+		#endregion
 	}
 }
